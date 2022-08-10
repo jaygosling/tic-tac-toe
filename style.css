@@ -13,15 +13,17 @@
     color: white;
     cursor: crosshair;
 }
+
 .row {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
+
 .background {
     background-color: #0764FA;
     width: 540px;
     height: 540px;
-    display:flex;
+    display: flex;
     justify-content: center;
     border-radius: 10px;
     position: fixed;
@@ -32,23 +34,26 @@
     margin-top: -270px;
     box-sizing: border-box;
 }
+
 button {
     background-color: #0594E3;
     color: white;
-font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Mouse Memoirs', sans-serif;
     font-size: 30px;
     padding: 15px;
     border-radius: 15px;
     border: none;
 }
+
 body {
     background-color: lightblue;
     margin: 0px;
 }
+
 .message {
     display: flex;
-justify-content: center;
-    display:none;
+    justify-content: center;
+    display: none;
 }
 
 .message-popup {
@@ -57,7 +62,7 @@ justify-content: center;
     height: 220px;
     border-radius: 15px;
     text-align: center;
-font-family: 'Mouse Memoirs', sans-serif; 
+    font-family: 'Mouse Memoirs', sans-serif;
     font-size: 70px;
     color: #0594E3;
     position: fixed;
@@ -65,13 +70,9 @@ font-family: 'Mouse Memoirs', sans-serif;
     left: 50%;
     margin-left: -165px;
     margin-top: -110px;
-        z-index: 2;
+    z-index: 2;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.who-won {
-    
-
-
-}
+.who-won {}
